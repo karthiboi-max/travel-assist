@@ -1,0 +1,62 @@
+/* Root Variables and Reset */
+:root {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: #213547; /* Default text color */
+  background-color: #ffffff; /* Light background color */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #f4f4f9; /* Light gray background */
+  color: #333; /* Dark text for better readability */
+}
+
+a {
+  font-weight: 500;
+  color: #0078d7;
+  text-decoration: none;
+}
+a:hover {
+  color: #005fa3;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  color: #0078d7; /* Consistent heading color */
+}
+
+button {
+  border-radius: 8px;
+  border: none;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  background-color: #0078d7;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #005fa3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
